@@ -12,5 +12,5 @@ Wallis and Gill Digital Yacht Firmware and Tools
  5. Finally you can upload running (e.g. doit board on /dev/ttyUSB0): ```$ arduino-cli upload --port /dev/ttyUSB0 --fqbn esp32:esp32:esp32doit-devkit-v1:FlashFreq=80,UploadSpeed=921600 --input-file ./build/esp32.esp32.esp32doit-devkit-v1/AK3SignalKOnMast.ino.bin```
  6. You may have to press the boot or reset button and hold for 4 secs. But you can also just try to flash again until it works.
 
-### Addition help
+### Additional help
 Please email support@wallisandgill.com if you encounter any issues.
